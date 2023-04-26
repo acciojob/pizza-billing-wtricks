@@ -58,7 +58,7 @@ public class Pizza {
             totalBillPrice += 20;
         }
 
-        bill += "\nTotal Price: " + totalBillPrice;
+        bill += "\nTotal Price: " + totalBillPrice + "\n";
         return this.bill;
     }
 }
